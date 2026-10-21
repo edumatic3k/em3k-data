@@ -1,15 +1,15 @@
 {
   "formatVersion": 1,
-  "id": "org.example.my-first-course",
+  "id": "pid0000001.basic-fractions",
   "version": "1.0.0",
-  "title": "My First Course",
-  "description": "A sample course for testing EM3K.",
-  "publisherId": "example",
+  "title": "Learning the Basics of Fractions",
+  "description": "This course will give you a brief introduction to fractions and explain some types of mathematical operations that are important to know.",
+  "publisherId": "pid0000001",
   "language": "en",
   "license": "CC0-1.0",
   "tags": [
-    "sample",
-    "testing"
+    "math",
+    "fractions"
   ],
   "lessons": [
     {
@@ -18,9 +18,9 @@
       "file": "lessons/introduction.json"
     },
     {
-      "id": "second-lesson",
-      "title": "Second Lesson",
-      "file": "lessons/second-lesson.json"
+      "id": "adding-fractions",
+      "title": "Adding Fractions",
+      "file": "lessons/adding-fractions.json"
     }
   ]
 }
