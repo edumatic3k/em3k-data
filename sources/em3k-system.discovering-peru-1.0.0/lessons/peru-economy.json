@@ -2,5 +2,11 @@
   "formatVersion": 1,
   "id": "peru-economy",
   "title": "The Economy of Peru",
-  "pages": []   
+  "pages": [    
+    {
+      "id": "economy",
+      "heading": "Peruvian Economics",
+      "blocks": []
+    }
+  ]   
 }

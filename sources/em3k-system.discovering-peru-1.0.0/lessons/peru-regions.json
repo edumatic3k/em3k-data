@@ -2,5 +2,11 @@
   "formatVersion": 1,
   "id": "peru-regions",
   "title": "The Regions of Peru",
-  "pages": []   
+  "pages": [    
+    {
+      "id": "history",
+      "heading": "Peruvian Regions",
+      "blocks": []
+    }
+  ]   
 }

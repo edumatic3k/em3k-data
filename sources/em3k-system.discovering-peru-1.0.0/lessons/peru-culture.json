@@ -2,5 +2,11 @@
   "formatVersion": 1,
   "id": "peru-culture",
   "title": "The Culture of Peru",
-  "pages": []   
+  "pages": [    
+    {
+      "id": "culture",
+      "heading": "Peruvian Culture",
+      "blocks": []
+    }
+  ]   
 }

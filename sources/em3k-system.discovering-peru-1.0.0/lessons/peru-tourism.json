@@ -2,5 +2,11 @@
   "formatVersion": 1,
   "id": "peru-tourism",
   "title": "Tourism In Peru",
-  "pages": []   
+  "pages": [    
+    {
+      "id": "history",
+      "heading": "Peruvian Tourism",
+      "blocks": []
+    }
+  ]   
 }
