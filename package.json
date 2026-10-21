@@ -1,4 +1,15 @@
 {
   "name": "em3k-data",
-  "version": "1.0.0-beta"
+  "version": "1.0.0-beta",
+  "description": "The course catalog data for Em3k.",
+  "author": "Ken Dawson",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edumatic3k/em3k-data.git"
+  },
+  "bugs": {
+    "url": "https://github.com/edumatic3k/em3k-data/issues"
+  },
+  "homepage": "https://catalog.em3k.org"
 }
