@@ -22,24 +22,37 @@ function renderCourse(course) {
     }
 
     const row = document.createElement('tr');
-    row.append(createCell(course.title));
 
+    // title
+    const titleCell = document.createElement('td');
+    const titleLink = document.createElement('a');
+    titleLink.href = `course-index.html?id=${course.id}`;
+    titleLink.textContent = course.title.charAt(0).toUpperCase() + course.title.slice(1);
+    titleCell.append(titleLink);
+    row.append(titleCell);
+
+    // category
     const categoryCell = document.createElement('td');
     const category = course.categories[0].category;
     const categoryLink = document.createElement('a');
-    categoryLink.href = `#?category=${encodeURIComponent(category.toLowerCase())}`;
+    categoryLink.href = `category.html?category=${encodeURIComponent(category.toLowerCase())}`;
     categoryLink.textContent = category.charAt(0).toUpperCase() + category.slice(1);
     categoryCell.append(categoryLink);
     row.append(categoryCell);
 
+    // description
     row.append(createCell(course.description));
+
+    // version
     row.append(createCell(course.version));
 
+    // button 
     const actionCell = document.createElement('td');
     const installButton = document.createElement('button');
     installButton.type = 'button';
     installButton.dataset.id = course.id;
     installButton.textContent = 'Install';
+    installButton.addEventListener('click', () => { alert(`Course ID: "${installButton.dataset.id}"\n\nThe install feature is not implemented yet.`); });   
     actionCell.append(installButton);
     row.append(actionCell);
 

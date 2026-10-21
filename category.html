@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Category</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="catalog.svg" sizes="any" type="image/svg+xml">
+        <link rel="stylesheet" href="catalog.css">
+    </head>
+    <body>
+
+        <a href="index.html">Back</a>
+
+        <h1>Category: <span id="cat"></span></h1>
+
+        <script>
+            const cat = document.getElementById('cat');
+            const queryString = window.location.search;
+            const urlParams = new URLSearchParams(queryString);
+            const category = urlParams.get('category');
+            cat.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+        </script>
+
+    </body>
+</html>
