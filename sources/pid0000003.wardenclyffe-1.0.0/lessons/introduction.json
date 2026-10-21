@@ -1,0 +1,72 @@
+{
+  "formatVersion": 1,
+  "id": "introduction",
+  "title": "Introduction",
+  "description": "An introductory lesson.",
+  "pages": [
+    {
+      "id": "welcome",
+      "heading": "Welcome",
+      "subhead": "Getting started",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "Welcome to your first EM3K lesson."
+        },
+        {
+          "type": "heading",
+          "level": 2,
+          "content": "What you will learn"
+        },
+        {
+          "type": "list",
+          "style": "unordered",
+          "items": [
+            "How to navigate lessons",
+            "How to answer quiz questions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "important-points",
+      "heading": "Important Points",
+      "blocks": [
+        {
+          "type": "callout",
+          "variant": "tip",
+          "title": "Remember",
+          "content": "Your learning progress is saved locally."
+        }
+      ]
+    }
+  ],
+  "quiz": {
+    "title": "Knowledge Check",
+    "passPercent": 70,
+    "questions": [
+      {
+        "id": "question-1",
+        "type": "multiple-choice",
+        "prompt": "Where is progress stored?",
+        "options": [
+          {
+            "id": "a",
+            "text": "On the local device"
+          },
+          {
+            "id": "b",
+            "text": "Only on the teacher server"
+          }
+        ],
+        "answer": "a"
+      },
+      {
+        "id": "question-2",
+        "type": "true-false",
+        "prompt": "EM3K requires a learner account.",
+        "answer": false
+      }
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "formatVersion": 1,
+  "id": "org.example.my-first-course",
+  "version": "1.0.0",
+  "title": "My First Course",
+  "description": "A sample course for testing EM3K.",
+  "publisherId": "example",
+  "language": "en",
+  "license": "CC0-1.0",
+  "tags": [
+    "sample",
+    "testing"
+  ],
+  "lessons": [
+    {
+      "id": "introduction",
+      "title": "Introduction",
+      "file": "lessons/introduction.json"
+    },
+    {
+      "id": "second-lesson",
+      "title": "Second Lesson",
+      "file": "lessons/second-lesson.json"
+    }
+  ]
+}

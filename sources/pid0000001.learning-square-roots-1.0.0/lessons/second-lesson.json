@@ -1,0 +1,17 @@
+{
+  "formatVersion": 1,
+  "id": "second-lesson",
+  "title": "Second Lesson",
+  "pages": [
+    {
+      "id": "next-steps",
+      "heading": "Next Steps",
+      "blocks": [
+        {
+          "type": "text",
+          "content": "You have reached the second lesson. Edit this content to create your own course."
+        }
+      ]
+    }
+  ]
+}
