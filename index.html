@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Course Catalog</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="catalog.css">
+        <script src="catalog.js" defer></script>
+    </head>
+    <body>
+
+        <h1>Course Catalog</h1>
+
+        <p id="catalog-status" role="status" aria-live="polite">Loading courses...</p>
+        <table>
+            <thead>
+                <tr class="tablehead">
+                    <th scope="col">Course Name</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">Description</th>
+                    <th scope="col">Action</th>
+                </tr>
+            </thead>
+            <tbody id="catalog-courses"></tbody>
+        </table>
+
+    </body>
+</html>

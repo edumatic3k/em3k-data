@@ -1,0 +1,62 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    padding: 25px;
+    margin: 0;
+}
+
+h1 {
+    padding-bottom: 30px;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visited {
+    color: darkslategray;
+    text-decoration: none;
+}
+a:hover {
+    color: crimson;
+    text-decoration: underline;
+}
+a:active {
+    color: crimson;
+    text-decoration: underline;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #000;
+    text-align: left;
+    padding: 10px 20px;
+}
+tbody tr:nth-child(odd) {
+    background-color: #dddddd;
+}
+.tablehead {
+    background-color: darkslategray;
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
+
+button {
+    background-color: lightslategray;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+button:hover {
+    background-color: crimson;
+}

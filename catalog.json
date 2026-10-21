@@ -1,0 +1,30 @@
+
+{
+  "courses": [
+    {
+      "name": "Course 1",
+      "category": "Geography",
+      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+    },
+    {
+      "name": "Course 2",
+      "category": "Math",
+      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+    },
+    {
+      "name": "Course 3",
+      "category": "History",
+      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+    },
+    {
+      "name": "Course 4",
+      "category": "Economics",
+      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+    },
+    {
+      "name": "Course 5",
+      "category": "Science",
+      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+    }
+  ]
+}
