@@ -5,6 +5,7 @@
   "title": "My First Course",
   "description": "A sample course for testing EM3K.",
   "publisherId": "example",
+  "targetAudience": "middle-school",
   "language": "en",
   "license": "CC0-1.0",
   "tags": [

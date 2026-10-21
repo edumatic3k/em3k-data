@@ -5,6 +5,7 @@
   "title": "Using Edumatic 3000 (Em3k)",
   "description": "A short guide to finding, installing, and taking courses in Em3k.",
   "publisherId": "em3k-system",
+  "targetAudience": "general",
   "language": "en-US",
   "license": "CC-BY-4.0",
   "tags": ["help", "tutorial"],

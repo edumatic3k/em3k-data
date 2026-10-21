@@ -7,6 +7,7 @@
       "title": "Discovering Peru",
       "description": "A brief introduction to Peru.",
       "publisherId": "em3k-system",
+      "targetAudience": "general",
       "categories": [
         {
           "category": "geography",
@@ -24,6 +25,7 @@
       "title": "Learning the Basics of Fractions",
       "description": "This course will give you a brief introduction to fractions and explain some types of mathematical operations that are important to know.",
       "publisherId": "pid0000001",
+      "targetAudience": "middle-school",
       "categories": [
         {
           "category": "mathematics"
@@ -37,6 +39,7 @@
       "title": "Learning Square Roots",
       "description": "Learn what a square root is, how the √ symbol works, how to find one without a calculator, and also basic mistakes to avoid,",
       "publisherId": "pid0000001",
+      "targetAudience": "middle-school",
       "categories": [
         {
           "category": "mathematics"
@@ -50,6 +53,7 @@
       "title": "Introduction to German",
       "description": "A simple introduction to learning the German language.",
       "publisherId": "pid0000002",
+      "targetAudience": "general",
       "categories": [
         {
           "category": "other"
@@ -63,6 +67,7 @@
       "title": "Tesla's Wardenclyffe",
       "description": "Learn all about Nikola Tesla's plan for Wardenclyffe",
       "publisherId": "pid0000003",
+      "targetAudience": "high-school",
       "categories": [
         {
           "category": "history",

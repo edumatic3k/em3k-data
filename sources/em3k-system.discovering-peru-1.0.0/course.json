@@ -5,6 +5,7 @@
   "title": "Discovering Peru",
   "description": "An introductory course about Peru's geography, landmarks, and culture.",
   "publisherId": "em3k-system",
+  "targetAudience": "general",
   "language": "en-US",
   "thumbnail": "assets/Machu_Picchu_Peru.jpg",
   "license": "CC-BY-4.0",
