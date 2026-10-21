@@ -10,28 +10,35 @@ function createCell(content) {
 function renderCourse(course) {
     if (
         !course
-        || typeof course.name !== 'string'
-        || typeof course.category !== 'string'
+        || typeof course.id !== 'string'
+        || typeof course.title !== 'string'
+        || !Array.isArray(course.categories)
+        || !course.categories[0]
+        || typeof course.categories[0].category !== 'string'
         || typeof course.description !== 'string'
+        || typeof course.version !== 'string'
     ) {
-        throw new Error('A course is missing its name, category, or description.');
+        throw new Error('A course is missing its id, title, categories, description, or version.');
     }
 
     const row = document.createElement('tr');
-    row.append(createCell(course.name));
+    row.append(createCell(course.title));
 
     const categoryCell = document.createElement('td');
+    const category = course.categories[0].category;
     const categoryLink = document.createElement('a');
-    categoryLink.href = `#?category=${encodeURIComponent(course.category.toLowerCase())}`;
-    categoryLink.textContent = course.category;
+    categoryLink.href = `#?category=${encodeURIComponent(category.toLowerCase())}`;
+    categoryLink.textContent = category.charAt(0).toUpperCase() + category.slice(1);
     categoryCell.append(categoryLink);
     row.append(categoryCell);
 
     row.append(createCell(course.description));
+    row.append(createCell(course.version));
 
     const actionCell = document.createElement('td');
     const installButton = document.createElement('button');
     installButton.type = 'button';
+    installButton.dataset.id = course.id;
     installButton.textContent = 'Install';
     actionCell.append(installButton);
     row.append(actionCell);

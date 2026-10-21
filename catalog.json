@@ -1,30 +1,75 @@
-
 {
+  "formatVersion": 1,
   "courses": [
     {
-      "name": "Course 1",
-      "category": "Geography",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+      "id": "em3k-system.discovering-peru",
+      "version": "1.0.0",
+      "title": "Discovering Peru",
+      "description": "A brief introduction to Peru.",
+      "publisherId": "em3k-system",
+      "categories": [
+        {
+          "category": "geography",
+          "subcategory": "regional-geography"
+        },
+        {
+          "category": "history"
+        }
+      ],
+      "package": "c/em3k-system.discovering-peru-1.0.0.zip"
     },
     {
-      "name": "Course 2",
-      "category": "Math",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+      "id": "pid00000001.basic-fractions",
+      "version": "1.0.0",
+      "title": "Learning the Basics of Fractions",
+      "description": "This course will give you a brief introduction to fractions and explain some types of mathematical operations that are important to know.",
+      "publisherId": "pid00000001",
+      "categories": [
+        {
+          "category": "mathematics"
+        }
+      ],
+      "package": "c/pid00000001.basic-fractions-1.0.0.zip"
     },
     {
-      "name": "Course 3",
-      "category": "History",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+      "id": "pid00000001.learning-square-roots",
+      "version": "1.0.0",
+      "title": "Learning Square Roots",
+      "description": "Learn what a square root is, how the √ symbol works, how to find one without a calculator, and also basic mistakes to avoid,",
+      "publisherId": "pid00000001",
+      "categories": [
+        {
+          "category": "mathematics"
+        }
+      ],
+      "package": "c/pid00000001.learning-square-roots-1.0.0.zip"
     },
     {
-      "name": "Course 4",
-      "category": "Economics",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+      "id": "pid00000002.intro-to-german",
+      "version": "1.0.0",
+      "title": "Introduction to German",
+      "description": "A simple introduction to learning the German language.",
+      "publisherId": "pid00000002",
+      "categories": [
+        {
+          "category": "other"
+        }
+      ],
+      "package": "c/pid00000002.intro-to-german-1.0.0.zip"
     },
     {
-      "name": "Course 5",
-      "category": "Science",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing minim sint cillum sint consectetur cupidatat."
+      "id": "pid00000003.wardenclyffe",
+      "version": "1.0.0",
+      "title": "Tesla's Wardenclyffe",
+      "description": "Learn all about Nikola Tesla's plan for Wardenclyffe",
+      "publisherId": "pid00000003",
+      "categories": [
+        {
+          "category": "history",
+          "subcategory": "modern-history"
+        }
+      ],
+      "package": "c/pid00000003.wardenclyffe-1.0.0.zip"
     }
   ]
 }
