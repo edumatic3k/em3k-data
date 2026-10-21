@@ -1,0 +1,67 @@
+{
+  "formatVersion": 1,
+  "categories": [
+    {
+      "id": "geography",
+      "name": "Geography",
+      "subcategories": [
+        { "id": "regional-geography", "name": "Regional Geography" },
+        { "id": "physical-geography", "name": "Physical Geography" }
+      ]
+    },
+    {
+      "id": "history",
+      "name": "History",
+      "subcategories": [
+        { "id": "ancient-history", "name": "Ancient History" },
+        { "id": "medieval-history", "name": "Medieval History" },
+        { "id": "modern-history", "name": "Modern History" }
+      ]
+    },
+    {
+      "id": "mathematics",
+      "name": "Mathematics",
+      "subcategories": [
+        { "id": "general-mathematics", "name": "General Mathematics" },
+        { "id": "algebra", "name": "Algebra" }
+      ]
+    },
+    {
+      "id": "science",
+      "name": "Science",
+      "subcategories": [
+        { "id": "general-science", "name": "General Science" },
+        { "id": "biology", "name": "Biology" }
+      ]
+    },
+    {
+      "id": "economics",
+      "name": "Economics",
+      "subcategories": [
+        { "id": "general-economics", "name": "General Economics" },
+        { "id": "personal-finance", "name": "Personal Finance" }
+      ]
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "subcategories": [
+        { "id": "computer-science", "name": "Computer Science" },
+        { "id": "software-development", "name": "Software Development" }
+      ]
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "subcategories": [
+        { "id": "educational-technology", "name": "Educational Technology" },
+        { "id": "tutorials", "name": "Tutorials" }
+      ]
+    },
+    {
+      "id": "other",
+      "name": "Other",
+      "subcategories": []
+    }
+  ]
+}
